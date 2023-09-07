@@ -1,11 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T01:34:00.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1bTqm6fL91dBLQHyv9lg" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T01:50:49.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UbEvqniRLVDTjNnVKxrW" version="21.7.2" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1434" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Usuario" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
+        <mxCell id="2" value="Store Admin" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="153.87" y="128" width="295.63" height="570" as="geometry">
+            <mxRectangle x="150" y="128" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZL80NEEh7D2_fjUfG9hX-61" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="2">
           <mxGeometry x="115.5" y="22" width="30" height="30" as="geometry" />
@@ -20,23 +22,110 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200.5" y="137" as="targetPoint" />
             <mxPoint x="695.5" y="102" as="sourcePoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="276" y="137" />
+              <mxPoint x="276" y="138" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-74" value="" style="line;strokeWidth=2;html=1;rotation=-90;" vertex="1" parent="2">
+          <mxGeometry x="-34.62" y="337.63" width="330.25" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-86" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" target="ZL80NEEh7D2_fjUfG9hX-81">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="502" as="sourcePoint" />
+            <mxPoint x="290" y="502" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3" value="APP Frontend" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="444.5" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="449.5" y="128" width="275" height="570" as="geometry" />
         </mxCell>
         <mxCell id="ZL80NEEh7D2_fjUfG9hX-66" value="The frontend appear in store admin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
           <mxGeometry x="70.5" y="102" width="140" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-78" value="Make Layouts design for&lt;br&gt;his own products" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="70.5" y="282" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-79" value="Adds new contenf for these products" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="70.5" y="372" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-80" value="Have in hand documentations for learn about the app" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="70" y="192" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-81" value="Allows the app to use regular, standar or premium features" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="70" y="472" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-87" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-164.5" y="404.5" as="sourcePoint" />
+            <mxPoint x="70.5" y="409.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-88" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-165" y="314.5" as="sourcePoint" />
+            <mxPoint x="70" y="319.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-89" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-164.5" y="214.5" as="sourcePoint" />
+            <mxPoint x="70.5" y="219.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-90" value="" style="line;strokeWidth=2;html=1;rotation=-90;" vertex="1" parent="3">
+          <mxGeometry x="119.04" y="361.67" width="294.18" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-92" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="316.5" as="sourcePoint" />
+            <mxPoint x="264.5" y="317" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-93" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="406.5" as="sourcePoint" />
+            <mxPoint x="264.5" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-94" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="506.75" as="sourcePoint" />
+            <mxPoint x="264.5" y="507.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4" value="APP Backend" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-91" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-69" y="226.5" as="sourcePoint" />
+            <mxPoint x="-14.5" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4" source="ZL80NEEh7D2_fjUfG9hX-97" target="ZL80NEEh7D2_fjUfG9hX-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-97" value="Generates a MVC web&lt;br&gt;frontend with all the config provides in the store admin app&lt;br&gt;(Frontend)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="65.5" y="212" width="175.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-98" value="The view with new product description is ready to be fetched" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="65.5" y="412" width="175.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZL80NEEh7D2_fjUfG9hX-41" value="Store" style="swimlane;whiteSpace=wrap;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="1004.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
         <mxCell id="ZL80NEEh7D2_fjUfG9hX-64" value="The apps its installed in store" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZL80NEEh7D2_fjUfG9hX-41">
           <mxGeometry x="75.5" y="32" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZL80NEEh7D2_fjUfG9hX-41" source="ZL80NEEh7D2_fjUfG9hX-100" target="ZL80NEEh7D2_fjUfG9hX-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-100" value="Store users&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="ZL80NEEh7D2_fjUfG9hX-41">
+          <mxGeometry x="130.5" y="222" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-101" value="Visit any product and gets the descriptions view" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="ZL80NEEh7D2_fjUfG9hX-41">
+          <mxGeometry x="105.5" y="422" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZL80NEEh7D2_fjUfG9hX-62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="ZL80NEEh7D2_fjUfG9hX-61" parent="1" target="ZL80NEEh7D2_fjUfG9hX-64">
           <mxGeometry relative="1" as="geometry">
@@ -53,6 +142,28 @@
             <Array as="points">
               <mxPoint x="1150" y="265" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.386;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-77" value="The frontend is just a admin panel who allows to modify&lt;br&gt;a lot of configurations, this are saved as content config&lt;br&gt;for the backend, where using a MVC display the configs made in app frontend." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="20" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZL80NEEh7D2_fjUfG9hX-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="716" y="280" />
+              <mxPoint x="870" y="280" />
+              <mxPoint x="870" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZL80NEEh7D2_fjUfG9hX-103" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.99;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZL80NEEh7D2_fjUfG9hX-98" target="ZL80NEEh7D2_fjUfG9hX-101">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="970" y="590" as="sourcePoint" />
+            <mxPoint x="1120" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
